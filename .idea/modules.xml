@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Dragger01/Dragger01.iml" filepath="$PROJECT_DIR$/Dragger01/Dragger01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Dragger02/Dragger02.iml" filepath="$PROJECT_DIR$/Dragger02/Dragger02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MVP_Dragger_RXJava_Retrofit.iml" filepath="$PROJECT_DIR$/MVP_Dragger_RXJava_Retrofit.iml" />
+    </modules>
+  </component>
+</project>
