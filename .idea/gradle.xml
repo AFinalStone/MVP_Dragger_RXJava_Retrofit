@@ -10,6 +10,14 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/Dragger01" />
             <option value="$PROJECT_DIR$/Dragger02" />
+            <option value="$PROJECT_DIR$/Dragger03" />
+            <option value="$PROJECT_DIR$/Dragger04" />
+            <option value="$PROJECT_DIR$/Dragger05_Singleton" />
+            <option value="$PROJECT_DIR$/Dragger06_Singleton" />
+            <option value="$PROJECT_DIR$/Dragger07_Scope" />
+            <option value="$PROJECT_DIR$/Dragger08_Named" />
+            <option value="$PROJECT_DIR$/Dragger09_Qualifier" />
+            <option value="$PROJECT_DIR$/MyApplication" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

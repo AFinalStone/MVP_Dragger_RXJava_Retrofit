@@ -1,1 +1,1 @@
-include ':Dragger01', ':Dragger02'
+include ':Dragger01', ':Dragger02', ':MyApplication', ':Dragger03', ':Dragger04', ':Dragger05_Singleton', ':Dragger06_Singleton', ':Dragger07_Scope', ':Dragger08_Named', ':Dragger09_Qualifier'

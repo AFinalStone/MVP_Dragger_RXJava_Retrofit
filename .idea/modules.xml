@@ -4,7 +4,15 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Dragger01/Dragger01.iml" filepath="$PROJECT_DIR$/Dragger01/Dragger01.iml" />
       <module fileurl="file://$PROJECT_DIR$/Dragger02/Dragger02.iml" filepath="$PROJECT_DIR$/Dragger02/Dragger02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Dragger03/Dragger03.iml" filepath="$PROJECT_DIR$/Dragger03/Dragger03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Dragger04/Dragger04.iml" filepath="$PROJECT_DIR$/Dragger04/Dragger04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Dragger05_Singleton/Dragger05_Singleton.iml" filepath="$PROJECT_DIR$/Dragger05_Singleton/Dragger05_Singleton.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Dragger06_Singleton/Dragger06_Singleton.iml" filepath="$PROJECT_DIR$/Dragger06_Singleton/Dragger06_Singleton.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Dragger07_Scope/Dragger07_Scope.iml" filepath="$PROJECT_DIR$/Dragger07_Scope/Dragger07_Scope.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Dragger08_Named/Dragger08_Named.iml" filepath="$PROJECT_DIR$/Dragger08_Named/Dragger08_Named.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Dragger09_Qualifier/Dragger09_Qualifier.iml" filepath="$PROJECT_DIR$/Dragger09_Qualifier/Dragger09_Qualifier.iml" />
       <module fileurl="file://$PROJECT_DIR$/MVP_Dragger_RXJava_Retrofit.iml" filepath="$PROJECT_DIR$/MVP_Dragger_RXJava_Retrofit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyApplication/MyApplication.iml" filepath="$PROJECT_DIR$/MyApplication/MyApplication.iml" />
     </modules>
   </component>
 </project>
