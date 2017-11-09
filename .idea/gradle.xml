@@ -17,6 +17,8 @@
             <option value="$PROJECT_DIR$/Dragger07_Scope" />
             <option value="$PROJECT_DIR$/Dragger08_Named" />
             <option value="$PROJECT_DIR$/Dragger09_Qualifier" />
+            <option value="$PROJECT_DIR$/Dragger10_Dependence" />
+            <option value="$PROJECT_DIR$/Dragger11_Subcomponent" />
             <option value="$PROJECT_DIR$/MyApplication" />
           </set>
         </option>
