@@ -3,7 +3,7 @@ package com.afinalstone.androidstudy.app;
 import android.app.Application;
 
 import com.afinalstone.androidstudy.di.component.AppComponent;
-import com.afinalstone.androidstudy.DaggerAppComponent;
+import com.afinalstone.androidstudy.di.component.DaggerAppComponent;
 import com.afinalstone.androidstudy.di.module.ApiModule;
 
 public class MyApplication extends Application {

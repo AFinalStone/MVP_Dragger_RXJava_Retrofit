@@ -10,8 +10,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.umeng.analytics.MobclickAgent;
-
 import javax.inject.Inject;
 
 import butterknife.ButterKnife;
@@ -70,18 +68,6 @@ public abstract class BaseFragment<T extends BasePresenter> extends Fragment imp
         mPresenter.attachView(this);
         ButterKnife.bind(this, view);
         initEventAndData();
-    }
-
-    @Override
-    public void onResume() {
-        super.onResume();
-        MobclickAgent.onPageStart("Fragment");
-    }
-
-    @Override
-    public void onPause() {
-        super.onPause();
-        MobclickAgent.onPageEnd("Fragment");
     }
 
     @Override

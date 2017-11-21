@@ -1,7 +1,7 @@
 package com.codeest.geeknews.util;
 
+import com.afinalstone.application.BuildConfig;
 import com.orhanobut.logger.Logger;
-import com.codeest.geeknews.BuildConfig;
 
 /**
  * Created by codeest on 2016/8/3.

@@ -16,7 +16,8 @@ import android.graphics.drawable.Drawable;
 import android.util.AttributeSet;
 import android.widget.ImageView;
 
-import com.codeest.geeknews.R;
+import com.afinalstone.application.R;
+
 
 /**
  * Created by codeest on 2016/8/4.
@@ -87,7 +88,7 @@ public class CircleImageView extends ImageView {
     @Override
     public void setScaleType(ScaleType scaleType) {
         if (scaleType != SCALE_TYPE) {
-            throw new IllegalArgumentException(String.format("ScaleType %s not supported.", scaleType));
+            throw new IllegalArgumentException(String.format("ScaleType %ServiceFactory not supported.", scaleType));
         }
     }
 

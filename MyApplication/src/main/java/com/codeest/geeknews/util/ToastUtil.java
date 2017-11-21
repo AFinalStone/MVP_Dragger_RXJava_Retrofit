@@ -6,7 +6,7 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.codeest.geeknews.R;
+import com.afinalstone.application.R;
 import com.codeest.geeknews.app.App;
 
 /**

@@ -10,8 +10,8 @@ import android.view.WindowManager;
 import com.codeest.geeknews.di.component.AppComponent;
 import com.codeest.geeknews.di.component.DaggerAppComponent;
 import com.codeest.geeknews.di.module.AppModule;
+import com.codeest.geeknews.di.module.HttpModule;
 import com.orhanobut.logger.Logger;
-import com.codeest.geeknews.component.CrashHandler;
 import com.codeest.geeknews.util.LogUtil;
 
 import java.util.HashSet;
@@ -45,8 +45,6 @@ public class App extends Application{
         //初始化日志
         Logger.init(getPackageName()).hideThreadInfo();
 
-        //初始化错误收集
-        CrashHandler.init(new CrashHandler(getApplicationContext()));
     }
 
     public void addActivity(Activity act) {
@@ -95,6 +93,7 @@ public class App extends Application{
     public static AppComponent getAppComponent(){
         return DaggerAppComponent.builder()
                 .appModule(new AppModule(instance))
+                .httpModule(new HttpModule())
                 .build();
     }
 }

@@ -11,7 +11,13 @@ import java.io.File;
  */
 public class Constants {
 
-    public static String DATA_PATH = App.getInstance().getCacheDir().getAbsolutePath();
+    //================= PATH ====================
 
-    public static String SDCARD_PATH = Environment.getExternalStorageDirectory().getAbsolutePath() + File.separator + "ztgame" + File.separator + "starshow";
+    public static final String PATH_DATA = App.getInstance().getCacheDir().getAbsolutePath() + File.separator + "data";
+
+    public static final String PATH_CACHE = PATH_DATA + "/NetCache";
+
+    public static final String PATH_SDCARD = Environment.getExternalStorageDirectory().getAbsolutePath() + File.separator + "codeest" + File.separator + "GeekNews";
+
+    //================= PREFERENCE ====================
 }

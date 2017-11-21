@@ -7,9 +7,9 @@ import android.widget.TextView;
 
 
 import com.afinalstone.androidstudy.di.component.AppComponent;
-import com.afinalstone.androidstudy.DaggerActivityComponent;
 import com.afinalstone.androidstudy.app.MyApplication;
 import com.afinalstone.androidstudy.R;
+import com.afinalstone.androidstudy.di.component.DaggerActivityComponent;
 import com.afinalstone.androidstudy.di.module.ActivityModule;
 
 import javax.annotation.Nullable;

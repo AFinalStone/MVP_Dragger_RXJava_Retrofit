@@ -1,10 +1,8 @@
 package com.codeest.geeknews.di.module;
 
-import android.content.Context;
-
 import com.codeest.geeknews.app.App;
 import com.codeest.geeknews.di.ContextLife;
-import com.codeest.geeknews.model.http.RetrofitHelper;
+import com.codeest.geeknews.model.http.HttpHelper;
 
 import javax.inject.Singleton;
 
@@ -30,9 +28,4 @@ public class AppModule {
         return application;
     }
 
-    @Provides
-    @Singleton
-    RetrofitHelper provideRetrofitHelper() {
-        return new RetrofitHelper();
-    }
 }
